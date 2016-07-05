@@ -30,8 +30,8 @@ h2 {
 }
 
 a {
-  margin-left: 20px;
-  color: #0131b4;
+/*  margin-left: 20px;*/
+/*  color: #0131b4;*/
   text-decoration: none;
 }
 
@@ -39,6 +39,14 @@ a:hover {
   color:  #b40131;
 }
 
+.glink {
+  margin-left: 20px;
+  color: #0131b4;
+}
+
+.clink {
+  color: white;
+}
 h3 {
   margin-left: 20px;
 }
@@ -53,6 +61,11 @@ p {
   color: white;
 }
 
-.bio {
+.info {
   color: white;
+}
+
+.contact {
+  display: inline-block;
+  margin-left: 30px;
 }
