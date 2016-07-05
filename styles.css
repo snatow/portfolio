@@ -1,35 +1,58 @@
 img {
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 350px;
+  max-height: 270px;
+}
+
+body {
+  background-color: black;
+  font-family: 'Arimo', sans-serif;
 }
 
 .project {
-  height: 400px;
-  width: 400px;
+  background-color: white;
+  height: 320px;
+  width: 410px;
   margin: 20px;
   display: inline-block;
   box-sizing: border-box;
   float: left;
-  border: 5px solid lightblue;
+  border: 10px solid grey;
 }
 
 .main-contain {
-  width: 880px;
+  width: 900px;
   margin: 0 auto;
 }
 
 h2 {
   text-align: center;
+  color: white;
 }
 
 a {
-  margin-left: 15px;
+  margin-left: 20px;
+  color: #0131b4;
+  text-decoration: none;
+}
+
+a:hover {
+  color:  #b40131;
 }
 
 h3 {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .about {
   display: block;
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.bio {
+  color: white;
 }
