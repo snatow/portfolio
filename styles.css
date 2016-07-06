@@ -47,6 +47,11 @@ a:hover {
 .clink {
   color: white;
 }
+
+.ilink {
+  margin-left: 20px;
+}
+
 h3 {
   margin-left: 20px;
 }
